@@ -1227,6 +1227,7 @@ h3.counter {
 	background: #fff none repeat scroll 0 0;
 	border-radius: 5px;
 	overflow: hidden;
+	padding-bottom: 10px;
 }
 
 .member-bg-image {
@@ -1234,7 +1235,7 @@ h3.counter {
 }
 
 .member-bg-image::after {
-	background: #ff8a00 none repeat scroll 0 0;
+	/* background: #ff8a00 none repeat scroll 0 0; */
 	content: "";
 	height: 100%;
 	left: 0;
@@ -1246,8 +1247,9 @@ h3.counter {
 
 .team-member-details {
 	font-size: 16px;
-	padding: 80px 20px 30px;
+	padding: 40px 20px 30px;
 	position: relative;
+	/* width: 100%; */
 }
 
 .team-member-thumb {
@@ -1275,6 +1277,8 @@ h3.counter {
 
 ul.social-bookmark li {
 	display: inline;
+	/* padding-top: 478px; */
+	margin-bottom: 10px;
 }
 
 ul.social-bookmark li a {
